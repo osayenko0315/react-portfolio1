@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route, Redirect, HashRouter } from "react-router-dom";
-import Navigation from "../../components/Navigation";
+import Navigation from "../Navigation/navigation";
 import About from "../../components/About";
-import Portfolio from "../../components/Portfolio";
-import Contact from '../../components/Contact';
+import Portfolio from "../Portfolio/portfolio";
+import Contact from '../Contact/contact';
 import Resume from '../../components/Resume';
 
 
